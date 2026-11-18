@@ -1,0 +1,22 @@
+checkpoints/*.pt
+checkpoints/milestones/*.pt
+results/*.csv
+results/*.png
+results/hpo
+runs.txt
+
+# Conda
+.env
+.conda
+
+# VS Code
+.vscode/
+
+# Python
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db

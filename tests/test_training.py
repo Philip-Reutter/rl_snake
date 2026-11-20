@@ -2,8 +2,8 @@ from dataclasses import replace
 
 import pytest
 
-from config import Config
-from training import train
+from src.config import Config
+from src.training import train
 
 TINY = replace(Config(), episodes=4, warmup_steps=20, batch_size=8, hidden=16, buffer_size=500,
                eval_every=2, eval_games=1, max_idle_steps=30, milestones=(1,))

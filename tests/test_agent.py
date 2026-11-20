@@ -3,9 +3,9 @@ from dataclasses import replace
 import numpy as np
 import torch
 
-from agent import DQNAgent, load_checkpoint, save_checkpoint
-from config import Config
-from replay_buffer import ReplayBuffer
+from src.agent import DQNAgent, load_checkpoint, save_checkpoint
+from src.config import Config
+from src.replay_buffer import ReplayBuffer
 
 OBS_DIM, N_ACTIONS = 13, 3
 

@@ -1,6 +1,6 @@
 import numpy as np
 
-from replay_buffer import ReplayBuffer
+from src.replay_buffer import ReplayBuffer
 
 
 def test_add_and_sample_shapes():

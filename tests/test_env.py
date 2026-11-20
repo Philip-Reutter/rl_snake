@@ -3,7 +3,7 @@ from collections import deque
 import numpy as np
 import pytest
 
-from env import (DIRS, N_ACTIONS, OBS_DIM, OBS_NAMES, STRAIGHT, TURN_LEFT,
+from src.env import (DIRS, N_ACTIONS, OBS_DIM, OBS_NAMES, STRAIGHT, TURN_LEFT,
                           TURN_RIGHT, SnakeEnv)
 
 UP, RIGHT, DOWN, LEFT = range(4)
